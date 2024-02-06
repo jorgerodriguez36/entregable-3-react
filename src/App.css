@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+/*-----Reset----- */
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  color: aliceblue;
+}
+img {
+  display: 	inline-block;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+input,
+button {
+  display: inline-block;
+  cursor: pointer;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border: none;
+}
+ul {
+  list-style: none;
+}
+h1 {
+  font-weight: 700;
+  margin-top: 40px;
+}
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-height: 100px;
+}
+
+
+/*..........app styles......*/
+
+.app {
+  background-color: #05292E;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 35px;
+}
+.app_form {
+  margin-top: 40px;
+}
+.app_text {
+  text-align: center;
+  width: 180px;
+  padding: 5px;
+  border-radius: 6px 0 0 6px;
+}
+.app_btn {
+  background-color: #71A821;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 0 6px 6px 0;
+}
+.app_container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-evenly;
+  width: 100%;
+}
